@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#gameboard {
+    width: 640px;
+    height: 640px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+#turn {
+    text-align: center;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+}
+
+.green {
+    background-color: #00e60f;
+}
+
+.purple {
+    background-color: rgb(137, 33, 255);
+}
+
+.square svg {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+}
+
+.white {
+    fill: rgb(255, 255, 255)
+}
